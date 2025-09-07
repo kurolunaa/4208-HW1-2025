@@ -2,21 +2,23 @@
 
     <head>
         <title> I can't sleep, it's too hot. </title>
+        <link href="styles/styles.css" rel="stylesheet">
     </head>
 
-    <body>
-        <h1> What time is it? </h1>
+    <body class="bg-sleep">
+        <h1 class="text-center text-white"> What time is it? </h1>
         <hr>
 
-        <p> You wake up in the middle of the night, dazed, and unable to gather your surroundings. </p>
-        <p> With your eyes still closed, you twist and you turn, attempting to get to the colder side of the bed. </p>
+        <p class="text-center text-white text-xx-large"> You wake up in the middle of the night, dazed, and unable to gather your surroundings. </p>
+        <p class="text-center text-white text-xx-large"> With your eyes still closed, you twist and you turn, attempting to get to the colder side of the bed. </p>
 
-        <p> But it's not enough. You wonder if you should open your eyes, just so you can peek at the time. </p>
-        <p> If you open your eyes, all that will be on your mind is if you will get enough sleep. </p>
+        <p class="text-center text-white text-xx-large"> But it's not enough. You wonder if you should open your eyes, just so you can peek at the time. </p>
+        <p class="text-center text-white text-xx-large"> If you open your eyes, all that will be on your mind is if you will get enough sleep. </p>
 
         <ul>
-            <li> <a id = 'attempt1' href = "attempt1.html"> Keep your eyes closed, and remain still. </a> </li>
-            <li> <a id = 'open1' href = "open1.html"> Open your eyes. </a> </li>
+            <!-- Add a special css command for this, for more padding on bottom and more width -->
+            <li class="text-center"> <a id = 'attempt1' href = "attempt1.html"><button id="longer-button" class="button-sleep bg-button-gray"> Keep your eyes closed, and remain still.</button> </a> </li>
+            <li class="text-center large-button padding-top"> <a class="text-center large-button" id = 'open1' href = "open1.html"><button class="text-xx-large button-wake-up bg-button-gray"> Open your eyes. </button></a> </li>
         </ul>
 
     </body>

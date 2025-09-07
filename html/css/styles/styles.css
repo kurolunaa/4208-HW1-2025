@@ -1,0 +1,88 @@
+.text-center{
+    text-align: center;
+}
+
+.text-xx-large{
+    font-size: xx-large;
+}
+
+.text-white{
+    color: white;
+}
+
+.bg-sleep{
+    background-color: black;
+}
+
+.large-button{
+    width: 200px;
+    height: 50px;
+    margin: auto;
+}
+
+.padding-bottom{
+    padding-bottom: 10px;
+}
+
+.padding-top{
+    padding-top: 10px;
+}
+
+.bg-button-gray{
+    border-width: auto;
+    border-style: solid;
+    background-color: gray;
+    border-color: gray;
+}
+
+.button-sleep:hover{
+    border-width: auto;
+    border-style: solid;
+    background-color: black;
+    border-color: white;
+    color: white;
+    transition: background-color 1s, border-color 1s, color 1s ease;    
+}
+
+.button-wake-up:hover{
+    border-width: auto;
+    border-style: solid;
+    background-color: white;
+    border-color: black;
+    transition: background-color 1s, border-color 1s ease;
+}
+/*change to class*/
+#longer-button{
+    width: 400px;
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-awake{
+    background-color: darkgray;
+}
+
+.dot-darkgray::marker{
+    color: darkgray;
+}
+
+.button-death:hover{
+    border-width: auto;
+    border-style: solid;
+    background-color: red;
+    border-color: black;
+    transition: background-color 1s, border-color 1s ease;
+}
+
+.button-win:hover{
+    border-width: auto;
+    border-style: solid;
+    background-color: rgb(0, 248, 0);
+    border-color: black;
+    transition: background-color 1s, border-color 1s ease;
+}
