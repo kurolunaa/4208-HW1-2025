@@ -51,7 +51,7 @@
     border-color: black;
     transition: background-color 1s, border-color 1s ease;
 }
-/*change to class*/
+/*change to class instead of ID*/
 #longer-button{
     width: 400px;
     font-size: xx-large;
