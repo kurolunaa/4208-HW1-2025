@@ -86,3 +86,43 @@
     border-color: black;
     transition: background-color 1s, border-color 1s ease;
 }
+
+.img-scale{
+    max-width: 40%;
+    max-height: 40%;
+}
+
+.img-center{
+    display: block;
+    margin: 0 auto;
+}
+
+.bigger-text{
+    font-size: 50px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.bg-stars{
+    background-image: url(../images/stars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.remove-space-between{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.red-text{
+    color: red;
+}
+
+.centered-video{
+    display: block;
+    margin: 0 auto;
+}
