@@ -52,7 +52,7 @@
     transition: background-color 1s, border-color 1s ease;
 }
 /*change to class instead of ID*/
-#longer-button{
+.longer-button{
     width: 400px;
     font-size: xx-large;
     padding-bottom: 10px;
@@ -106,7 +106,7 @@
 }
 
 .bg-stars{
-    background-image: url(../images/stars.jpg);
+    background-image: url(../assets/stars.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
