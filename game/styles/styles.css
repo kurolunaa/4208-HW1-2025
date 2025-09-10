@@ -1,128 +1,123 @@
+/* Aligns the text to the center of the screen */
 .text-center{
     text-align: center;
 }
-
+/* makes the text around 32px depending on the browser */
 .text-xx-large{
     font-size: xx-large;
 }
-
+/* makes the text color white instead of the default black */
 .text-white{
     color: white;
 }
-
+/* changes the color of the background to black for when we want to sleep instead of open our eyes */
 .bg-sleep{
     background-color: black;
 }
-
+/* enlarges the button to make more room for the text */
 .large-button{
     width: 200px;
     height: 50px;
     margin: auto;
 }
-
+/* adds padding to the bottom of the item to allow for spacing between them */
 .padding-bottom{
     padding-bottom: 10px;
 }
-
+/* adds padding to the bottom of the item to allow for spacing between them */
 .padding-top{
     padding-top: 10px;
 }
-
+/* changes the button's color and border color to gray, but also makes the border have the exact same color as the button for later changing*/
 .bg-button-gray{
-    border-width: auto;
+
     border-style: solid;
     background-color: gray;
     border-color: gray;
 }
-
+/* adds a transition to make the button go from a gray button and border with black text to a black button with white text and a white border over 1 second */
 .button-sleep:hover{
-    border-width: auto;
     border-style: solid;
     background-color: black;
     border-color: white;
     color: white;
     transition: background-color 1s, border-color 1s, color 1s ease;    
 }
-
+/* adds a transition to make the button go from a gray button and border with black text to a white button with a black border and black text over 1 second */
 .button-wake-up:hover{
-    border-width: auto;
     border-style: solid;
     background-color: white;
     border-color: black;
     transition: background-color 1s, border-color 1s ease;
 }
-/*change to class instead of ID*/
+/* makes the button longer than the bigger-button class for buttons with extra text */
 .longer-button{
     width: 400px;
     font-size: xx-large;
     padding-bottom: 10px;
 }
 
-.button-container{
-    display: flex;
-    justify-content: space-between;
-}
-
+/* makes the background darkgray for when the player opens their eyes */
 .bg-awake{
     background-color: darkgray;
 }
-
+/* makes the line-item dots darkgray to make them not able to be seen on the darkgray backgrounds */
 .dot-darkgray::marker{
     color: darkgray;
 }
-
+/* adds a transition to make the button go from a gray button and border with black text to a red button with a black border and black text over 1 second */
 .button-death:hover{
-    border-width: auto;
     border-style: solid;
     background-color: red;
     border-color: black;
     transition: background-color 1s, border-color 1s ease;
 }
-
+/* adds a transition to make the button go from a gray button and border with black text to a green button with a black border and black text over 1 second */
 .button-win:hover{
-    border-width: auto;
     border-style: solid;
     background-color: rgb(0, 248, 0);
     border-color: black;
     transition: background-color 1s, border-color 1s ease;
 }
-
+/* scales the image to 40%, as the images we created are VERY big */
 .img-scale{
     max-width: 40%;
     max-height: 40%;
 }
-
+/* aligns the image to the center of the screen */
 .img-center{
     display: block;
     margin: 0 auto;
 }
-
+/* makes the text bigger than xx-large */
 .bigger-text{
     font-size: 50px;
 }
-
+/* makes the text italic */
 .italics{
     font-style: italic;
 }
-
+/* makes the background the image stars.jpg by using cover */
 .bg-stars{
     background-image: url(../assets/stars.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    margin: 0;
 }
-
+/* sets the space for a line at the top and bottom to 10 if the spacing between those 3 lines are too big */
 .remove-space-between{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+/* makes the text red */
 .red-text{
     color: red;
 }
-
+/* centers the youtube embed in the captured ending */
 .centered-video{
     display: block;
     margin: 0 auto;
+}
+/* makes the text times-new-roman, and is added to every line for consistency */
+.times-new-roman{
+    font-family: 'Times New Roman', Times, serif;
 }
