@@ -3,12 +3,14 @@
 Live demo: https://kurolunaa.github.io/4208-HW1-2025/
 Repo: https://github.com/kurolunaa/4208-HW1-2025
 
+
 ## Pitch
 You need to get a good night's rest, but unfortunately you get the feeling something unsettling is off and messing with you. Could it be aliens? Ghosts? Or perhaps even sleep paralysis demons?
 
 ## How to Play
 - Click “Time to go to sleep.” on the landing page.
 - When prompted, pick one of two choices: Keep your eyes closed, or open your eyes.
+- There are two endings at most, and multiple different ways to go back to the start.
 
 ## Tech
 - HTML (multi-page), CSS (external stylesheets)
